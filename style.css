@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    border: 0;
+}
+
+nav{
+    font-family: 'Ubuntu';
+}
+
+body{
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 40px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.container{
+    height: 63vh;
+    background-color: black;
+    color: white;
+    margin: 24px auto;
+    width: 50%;
+    font-family: 'Varela Round';
+    padding: 34px;
+    border-radius: 12px;
+    background-image: url(thomsa.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom{
+    position: sticky;
+    height: 75px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons{
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.icons i{
+    margin: 0 12px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 12px;
+}
+
+.songItem{
+    height: 35px;
+    background-color: white;
+    color: black;
+    width: 40%;
+    margin: 12px 0;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.songItem img{
+    height: 28px;
+    width: 20px;
+    margin: 0 20px;
+    background-size: contain;
+    border-radius: 28px;
+}
+
+.songName{
+    margin-left: 0;
+}
+
+.timestamp{
+    margin: 0 0;
+}
+.timestamp i{
+    margin: 0 9px;
+    cursor: pointer;
+}
